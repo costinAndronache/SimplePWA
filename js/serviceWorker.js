@@ -1,15 +1,15 @@
 const pwaCACHE = "pwaCACHE";
 const assets = [
   "/",
-  "/index.html",
-  "/style/style.css",
-  "/js/main.js",
-  "/resources/cpp.png",
-  "/resources/csharp.png",
-  "/resources/swift.jpg",
-  "/resources/cpp.txt",
-  "/resources/swift.txt",
-  "/resources/csharp.txt"
+  "index.html",
+  "style/style.css",
+  "js/main.js",
+  "resources/cpp.png",
+  "resources/csharp.png",
+  "resources/swift.jpg",
+  "resources/cpp.txt",
+  "resources/swift.txt",
+  "resources/csharp.txt"
 ];
 
 self.addEventListener("install", installEvent => {
